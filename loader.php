@@ -1,6 +1,6 @@
 <?php
 
-if( ( defined('WP_DEBUG') && WP_DEBUG ) || ( defined('SKIP_REQUIRED_PLUGINS') && SKIP_REQUIRED_PLUGINS ) {
+if( ( defined('WP_DEBUG') && WP_DEBUG ) || ( defined('SKIP_REQUIRED_PLUGINS') && SKIP_REQUIRED_PLUGINS ) ) {
 	return;
 }
 
