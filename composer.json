@@ -1,5 +1,5 @@
 {
-	"name": "voceconnect/mu-plugins",
+	"name": "voceconnect/required-plugins",
 	"description": "A set of required plugins for production instances",
 	"keywords": ["WordPress", "mu-plugins"],
 	"type": "wordpress-muplugin",
