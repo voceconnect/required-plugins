@@ -3,20 +3,20 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "1086d5f0139c5054522fa95b5944a1ce",
+    "hash": "a19ab4e9a2c5c0afa53e9a84f8d36c47",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.6",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "b3bd071ea114a57212c75aa6a2eef5cfe0cc798f"
+                "reference": "d792632d27e1980d921cbbba12eab7b888338d4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/b3bd071ea114a57212c75aa6a2eef5cfe0cc798f",
-                "reference": "b3bd071ea114a57212c75aa6a2eef5cfe0cc798f",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d792632d27e1980d921cbbba12eab7b888338d4c",
+                "reference": "d792632d27e1980d921cbbba12eab7b888338d4c",
                 "shasum": ""
             },
             "replace": {
@@ -59,6 +59,7 @@
                 "agl",
                 "cakephp",
                 "codeigniter",
+                "concrete5",
                 "drupal",
                 "fuelphp",
                 "installer",
@@ -76,20 +77,20 @@
                 "wordpress",
                 "zend"
             ],
-            "time": "2013-08-20 04:37:09"
+            "time": "2013-10-24 16:13:49"
         },
         {
             "name": "voceconnect/wp-dependencies",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voceconnect/wp-dependencies.git",
-                "reference": "31d4b60064ae8a4d376093af0fdf3734ff84b323"
+                "reference": "4f3f58d5abef36b28bcdd8e97c3fef6687201d65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voceconnect/wp-dependencies/zipball/31d4b60064ae8a4d376093af0fdf3734ff84b323",
-                "reference": "31d4b60064ae8a4d376093af0fdf3734ff84b323",
+                "url": "https://api.github.com/repos/voceconnect/wp-dependencies/zipball/4f3f58d5abef36b28bcdd8e97c3fef6687201d65",
+                "reference": "4f3f58d5abef36b28bcdd8e97c3fef6687201d65",
                 "shasum": ""
             },
             "require": {
@@ -115,7 +116,7 @@
                 }
             ],
             "description": "A composer package for WordPress to help manage plugin dependencies.",
-            "time": "2013-10-29 20:16:34"
+            "time": "2013-11-05 19:12:23"
         },
         {
             "name": "wpackagist/force-strong-passwords",
@@ -133,11 +134,11 @@
             "homepage": "http://wordpress.org/extend/plugins/force-strong-passwords"
         },
         {
-            "name": "wpackagist/limit-login-attempts",
-            "version": "1.7.1",
+            "name": "wpackagist/wp-fail2ban",
+            "version": "2.1.0",
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/limit-login-attempts.1.7.1.zip",
+                "url": "http://downloads.wordpress.org/plugin/wp-fail2ban.2.1.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -145,7 +146,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/extend/plugins/limit-login-attempts"
+            "homepage": "http://wordpress.org/extend/plugins/wp-fail2ban"
         }
     ],
     "packages-dev": [
