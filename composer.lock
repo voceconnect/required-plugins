@@ -1,30 +1,32 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "a19ab4e9a2c5c0afa53e9a84f8d36c47",
+    "hash": "1908d2218c7f1dddc61bcc1e86c04ed5",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.7",
+            "version": "v1.0.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "d792632d27e1980d921cbbba12eab7b888338d4c"
+                "reference": "89d77bfbee79e16653f7162c86e602cc188471db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/d792632d27e1980d921cbbba12eab7b888338d4c",
-                "reference": "d792632d27e1980d921cbbba12eab7b888338d4c",
+                "url": "https://api.github.com/repos/composer/installers/zipball/89d77bfbee79e16653f7162c86e602cc188471db",
+                "reference": "89d77bfbee79e16653f7162c86e602cc188471db",
                 "shasum": ""
             },
             "replace": {
+                "roundcube/plugin-installer": "*",
                 "shama/baton": "*"
             },
             "require-dev": {
                 "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "4.1.*"
             },
             "type": "composer-installer",
             "extra": {
@@ -46,51 +48,69 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama",
-                    "role": "Developer"
+                    "homepage": "https://github.com/shama"
                 }
             ],
             "description": "A multi-framework Composer library installer",
             "homepage": "http://composer.github.com/installers/",
             "keywords": [
-                "TYPO3 CMS",
-                "TYPO3 Flow",
-                "TYPO3 Neos",
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "Thelia",
+                "WolfCMS",
                 "agl",
+                "annotatecms",
+                "bitrix",
                 "cakephp",
+                "chef",
                 "codeigniter",
                 "concrete5",
+                "croogo",
+                "dokuwiki",
                 "drupal",
+                "elgg",
                 "fuelphp",
+                "grav",
                 "installer",
                 "joomla",
                 "kohana",
                 "laravel",
-                "li3",
                 "lithium",
+                "magento",
                 "mako",
+                "mediawiki",
                 "modulework",
+                "moodle",
                 "phpbb",
+                "piwik",
                 "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
                 "silverstripe",
                 "symfony",
+                "typo3",
                 "wordpress",
-                "zend"
+                "zend",
+                "zikula"
             ],
-            "time": "2013-10-24 16:13:49"
+            "time": "2014-11-29 01:29:17"
         },
         {
             "name": "voceconnect/wp-dependencies",
-            "version": "v0.1.1",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voceconnect/wp-dependencies.git",
-                "reference": "4f3f58d5abef36b28bcdd8e97c3fef6687201d65"
+                "reference": "33c3cfc48be261275222c6c3e3866e325220d56d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voceconnect/wp-dependencies/zipball/4f3f58d5abef36b28bcdd8e97c3fef6687201d65",
-                "reference": "4f3f58d5abef36b28bcdd8e97c3fef6687201d65",
+                "url": "https://api.github.com/repos/voceconnect/wp-dependencies/zipball/33c3cfc48be261275222c6c3e3866e325220d56d",
+                "reference": "33c3cfc48be261275222c6c3e3866e325220d56d",
                 "shasum": ""
             },
             "require": {
@@ -111,19 +131,24 @@
             ],
             "authors": [
                 {
-                    "name": "Michael Prettty",
+                    "name": "Mike Pretty",
                     "email": "mpretty@voceconnect.com"
                 }
             ],
             "description": "A composer package for WordPress to help manage plugin dependencies.",
-            "time": "2013-11-05 19:12:23"
+            "time": "2014-04-25 13:01:40"
         },
         {
-            "name": "wpackagist/force-strong-passwords",
-            "version": "1.3",
+            "name": "wpackagist-plugin/force-strong-passwords",
+            "version": "1.3.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/force-strong-passwords/",
+                "reference": "tags/1.3.4"
+            },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/force-strong-passwords.1.3.zip",
+                "url": "http://downloads.wordpress.org/plugin/force-strong-passwords.1.3.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -131,14 +156,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/extend/plugins/force-strong-passwords"
+            "homepage": "http://wordpress.org/plugins/force-strong-passwords/"
         },
         {
-            "name": "wpackagist/wp-fail2ban",
-            "version": "2.1.0",
+            "name": "wpackagist-plugin/wp-fail2ban",
+            "version": "2.1.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-fail2ban/",
+                "reference": "tags/2.1.1"
+            },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wp-fail2ban.2.1.0.zip",
+                "url": "http://downloads.wordpress.org/plugin/wp-fail2ban.2.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -146,23 +176,15 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/extend/plugins/wp-fail2ban"
+            "homepage": "http://wordpress.org/plugins/wp-fail2ban/"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
 }

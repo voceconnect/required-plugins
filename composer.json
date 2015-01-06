@@ -11,8 +11,8 @@
 	],
 	"require": {
 		"voceconnect/wp-dependencies": "~0.1",
-		"wpackagist/wp-fail2ban": "~2.1.0",
-		"wpackagist/force-strong-passwords": "~1.3.0"
+		"wpackagist-plugin/wp-fail2ban": "~2.1.0",
+		"wpackagist-plugin/force-strong-passwords": "~1.3.0"
 	},
 	"autoload": {
 		"files": ["loader.php"]
