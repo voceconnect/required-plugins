@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1908d2218c7f1dddc61bcc1e86c04ed5",
+    "hash": "7a69b329b42c7872646e5bc2b26f9993",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.19",
+            "version": "v1.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "89d77bfbee79e16653f7162c86e602cc188471db"
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/89d77bfbee79e16653f7162c86e602cc188471db",
-                "reference": "89d77bfbee79e16653f7162c86e602cc188471db",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
                 "shasum": ""
             },
             "replace": {
@@ -59,9 +59,11 @@
                 "Hurad",
                 "MODX Evo",
                 "OXID",
+                "SMF",
                 "Thelia",
                 "WolfCMS",
                 "agl",
+                "aimeos",
                 "annotatecms",
                 "bitrix",
                 "cakephp",
@@ -97,7 +99,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-11-29 01:29:17"
+            "time": "2015-02-18 17:17:01"
         },
         {
             "name": "voceconnect/wp-dependencies",
@@ -140,15 +142,15 @@
         },
         {
             "name": "wpackagist-plugin/force-strong-passwords",
-            "version": "1.3.4",
+            "version": "1.5",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/force-strong-passwords/",
-                "reference": "tags/1.3.4"
+                "reference": "tags/1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/force-strong-passwords.1.3.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/force-strong-passwords.1.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -156,19 +158,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/force-strong-passwords/"
+            "homepage": "https://wordpress.org/plugins/force-strong-passwords/"
         },
         {
             "name": "wpackagist-plugin/wp-fail2ban",
-            "version": "2.1.1",
+            "version": "2.3.0",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wp-fail2ban/",
-                "reference": "tags/2.1.1"
+                "reference": "tags/2.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wp-fail2ban.2.1.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-fail2ban.2.3.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -176,7 +178,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/wp-fail2ban/"
+            "homepage": "https://wordpress.org/plugins/wp-fail2ban/"
         }
     ],
     "packages-dev": [],
