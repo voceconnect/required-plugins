@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7a69b329b42c7872646e5bc2b26f9993",
+    "hash": "1ccad7fbc2e53fcace1d137b874a9b7c",
     "packages": [
         {
             "name": "composer/installers",
@@ -102,55 +102,52 @@
             "time": "2015-02-18 17:17:01"
         },
         {
-            "name": "voceconnect/wp-dependencies",
-            "version": "v0.1.2",
+            "name": "voceconnect/wp-plugin-loader",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/voceconnect/wp-dependencies.git",
-                "reference": "33c3cfc48be261275222c6c3e3866e325220d56d"
+                "url": "https://github.com/voceconnect/wp-plugin-loader.git",
+                "reference": "d2739e603a18f59103124df2d8cc3ccd33dfc075"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voceconnect/wp-dependencies/zipball/33c3cfc48be261275222c6c3e3866e325220d56d",
-                "reference": "33c3cfc48be261275222c6c3e3866e325220d56d",
+                "url": "https://api.github.com/repos/voceconnect/wp-plugin-loader/zipball/d2739e603a18f59103124df2d8cc3ccd33dfc075",
+                "reference": "d2739e603a18f59103124df2d8cc3ccd33dfc075",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.2.4"
+                "php": ">=5.4.0"
             },
             "type": "library",
             "autoload": {
-                "classmap": [
-                    "class-wp-dependency-loader.php"
-                ],
-                "files": [
-                    "bootstrap.php"
-                ]
+                "psr-4": {
+                    "Voce\\PluginLoader\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-3.0+"
             ],
             "authors": [
                 {
-                    "name": "Mike Pretty",
+                    "name": "Michael Pretty",
                     "email": "mpretty@voceconnect.com"
                 }
             ],
-            "description": "A composer package for WordPress to help manage plugin dependencies.",
-            "time": "2014-04-25 13:01:40"
+            "description": "A simplified interface to insure that a WordPress plugin has been loaded",
+            "time": "2015-07-10 21:07:11"
         },
         {
             "name": "wpackagist-plugin/force-strong-passwords",
-            "version": "1.5",
+            "version": "1.5.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/force-strong-passwords/",
-                "reference": "tags/1.5"
+                "reference": "tags/1.5.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/force-strong-passwords.1.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/force-strong-passwords.1.5.2.zip",
                 "reference": null,
                 "shasum": null
             },
