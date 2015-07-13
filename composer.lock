@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1ccad7fbc2e53fcace1d137b874a9b7c",
+    "hash": "0de587f02c3cdad2cc4ca85b9ad935f4",
     "packages": [
         {
             "name": "composer/installers",
@@ -136,6 +136,26 @@
             ],
             "description": "A simplified interface to insure that a WordPress plugin has been loaded",
             "time": "2015-07-10 21:07:11"
+        },
+        {
+            "name": "wpackagist-plugin/disable-xml-rpc-pingback",
+            "version": "1.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/disable-xml-rpc-pingback/",
+                "reference": "tags/1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-xml-rpc-pingback.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-xml-rpc-pingback/"
         },
         {
             "name": "wpackagist-plugin/force-strong-passwords",

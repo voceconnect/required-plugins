@@ -12,9 +12,10 @@
 	"require": {
 		"voceconnect/wp-plugin-loader": "~0.1",
 		"wpackagist-plugin/wp-fail2ban": "~2.3.0",
-		"wpackagist-plugin/force-strong-passwords": "~1.5.0"
+		"wpackagist-plugin/force-strong-passwords": "~1.5.0",
+		"wpackagist-plugin/disable-xml-rpc-pingback": "~1.1"
 	},
 	"autoload": {
-		"files": ["loader.php"]
+		"files": ["bootstrap.php"]
 	}
 }
