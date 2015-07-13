@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0de587f02c3cdad2cc4ca85b9ad935f4",
+    "hash": "ce4819878dbdf9f4b0ec9feef115905c",
     "packages": [
         {
             "name": "composer/installers",
@@ -102,40 +102,43 @@
             "time": "2015-02-18 17:17:01"
         },
         {
-            "name": "voceconnect/wp-plugin-loader",
-            "version": "0.1.0",
+            "name": "voceconnect/wp-dependencies",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/voceconnect/wp-plugin-loader.git",
-                "reference": "d2739e603a18f59103124df2d8cc3ccd33dfc075"
+                "url": "https://github.com/voceconnect/wp-dependencies.git",
+                "reference": "5a1a0e6f743bb69dc165c7647141034678a0d8e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voceconnect/wp-plugin-loader/zipball/d2739e603a18f59103124df2d8cc3ccd33dfc075",
-                "reference": "d2739e603a18f59103124df2d8cc3ccd33dfc075",
+                "url": "https://api.github.com/repos/voceconnect/wp-dependencies/zipball/5a1a0e6f743bb69dc165c7647141034678a0d8e3",
+                "reference": "5a1a0e6f743bb69dc165c7647141034678a0d8e3",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0"
+                "php": ">=5.2.4"
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Voce\\PluginLoader\\": ""
-                }
+                "classmap": [
+                    "class-wp-dependency-loader.php"
+                ],
+                "files": [
+                    "wp-composition.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
-                    "name": "Michael Pretty",
+                    "name": "Michael Prettty",
                     "email": "mpretty@voceconnect.com"
                 }
             ],
-            "description": "A simplified interface to insure that a WordPress plugin has been loaded",
-            "time": "2015-07-10 21:07:11"
+            "description": "A composer package for WordPress to help manage plugin dependencies.",
+            "time": "2015-07-13 15:34:49"
         },
         {
             "name": "wpackagist-plugin/disable-xml-rpc-pingback",
