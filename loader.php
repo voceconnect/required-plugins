@@ -1,8 +1,4 @@
 <?php
-use Voce\PluginLoader\PluginLoader;
-
-$pluginLoader = new PluginLoader();
-$pluginLoader->registerHooks();
-do_action( Voce\PluginLoader\PluginLoader::LOAD_ACTION, 'wp-fail2ban' );
-do_action( Voce\PluginLoader\PluginLoader::LOAD_ACTION, 'force-strong-passwords', 'slt-force-strong-passwords' );
-do_action( Voce\PluginLoader\PluginLoader::LOAD_ACTION, 'disable-xml-rpc-pingback' );
+do_action( 'wp_load_dependency', 'wp-fail2ban' );
+do_action( 'wp_load_dependency', 'force-strong-passwords', 'slt-force-strong-passwords' );
+do_action( 'wp_load_dependency', 'disable-xml-rpc-pingback' );
